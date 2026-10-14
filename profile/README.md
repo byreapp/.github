@@ -5,8 +5,8 @@
 <h3 align="center">Byre</h3>
 
 <p align="center">
-  Run PostgreSQL, MySQL and MongoDB side by side on your Mac, and browse any database in Studio.<br>
-  No Docker, no Homebrew.
+  Run PostgreSQL, MySQL, MariaDB, MongoDB, Redis and Valkey side by side on your machine, and browse any database in Studio.<br>
+  No Docker, no Homebrew. Free for macOS, Windows and Linux.
 </p>
 
 <p align="center">
@@ -22,7 +22,7 @@
 
 ### Local servers
 
-Run several versions of PostgreSQL, MySQL and MongoDB at once. Each server has its own port and data folder. Byre downloads each engine for you.
+Run several versions of PostgreSQL, MySQL, MariaDB, MongoDB, Redis and Valkey at once. Each server has its own port and data folder. Byre downloads each engine for you, built in-house in [byre-binaries](https://github.com/byreapp/byre-binaries). Back up, restore, upgrade or duplicate a server in a click.
 
 ### Studio
 
@@ -49,11 +49,15 @@ Browse, query and edit Postgres, MySQL, MariaDB, MongoDB, Redis/Valkey, SQLite a
 
 ### AI-ready
 
-Let Claude Code, Codex, Cursor, Gemini CLI or GitHub Copilot create servers, manage databases and run queries through the `byre` command. It only listens on your Mac.
+Let Claude Code, Codex, Cursor, Gemini CLI or GitHub Copilot create servers, manage databases and run queries through the `byre` command. It only listens on your machine.
+
+### Built by
+
+Byre is designed and built by [Sumanta Kabiraj](https://sumanta.ai) ([@sumantadotai](https://github.com/sumantadotai)), a full-stack developer who builds AI products. Byre started as a personal itch: every database engine in one fast native app, with no Docker in the way.
 
 ---
 
 <p align="center">
-  <a href="https://byre.app/download"><b>Download Byre for macOS</b></a> ·
+  <a href="https://byre.app/download"><b>Download Byre for macOS, Windows and Linux</b></a> ·
   Releases and issues live in <a href="https://github.com/byreapp/byre-releases">byre-releases</a>
 </p>
